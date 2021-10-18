@@ -3,9 +3,8 @@ package webauthn
 import (
 	"testing"
 
-	"github.com/duo-labs/webauthn/protocol"
+	"github.com/td4b/webauthn/protocol"
 )
-
 
 func TestRegistration_FinishRegistrationFailure(t *testing.T) {
 	user := &defaultUser{
